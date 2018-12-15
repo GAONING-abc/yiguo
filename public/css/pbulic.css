@@ -77,12 +77,58 @@ i,s{
 	color: #008842;
 	cursor: pointer;
 }
+.site-nav .city-name s{
+	top: 9px;
+}
 .site-nav s{
-	background: url('../images/header/header-img.png');
+	background: url('../images/header/header-img.png') no-repeat 0 0;
 	width: 8px;
 	height: 4px;
 	position: absolute;
 	right: 8px;
 	margin-left: 5px;
-	top: 9px;
+	top: 13px;
+	transition: transform .2s ease-in 0s;
+    -webkit-transition: -webkit-transform .2s ease-in 0s;
+}
+.site-nav .fr li{
+	position: relative;
+	text-align: center;
+	float: right;
+	line-height: 30px;
+	padding: 0 10px;
+}
+.site-nav .fr i{
+	background: url('../images/header/header-img.png') no-repeat left top;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+}
+.site-nav .TEL i{
+	background-position: -86px 0;
+}
+.site-nav .pay i{
+	width: 22px;
+	background-position: -147px 0;
+}
+.site-nav .fr .myyiguo,.site-nav .fr .mobile{
+	padding: 0;
+}
+.site-nav .mobile i{
+	background-position: -64px 0;
+}
+.site-nav .myyiguo i{
+	background-position: -40px 0;
+}
+.site-nav .fr .tit a{
+	position: relative;
+	border: solid #f7f9f8;
+	border-width: 0 1px;
+	display: block;
+	float: left;
+	z-index: 100;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 20px 0 10px;
+	cursor: pointer;
 }
