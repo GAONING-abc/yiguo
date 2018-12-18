@@ -27,7 +27,7 @@ i,s{
 .fr{
 	float: right;
 }
-.war{
+.wrap{
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -131,4 +131,68 @@ i,s{
 	line-height: 30px;
 	padding: 0 20px 0 10px;
 	cursor: pointer;
+}
+.site-nav .fr .current .tit a{
+	border-color: #b4c1a3;
+	background-color: #fff;
+	padding-bottom: 1px;
+}
+.site-nav .fr .con{
+	display: none;
+	border:1px solid #b4c1a3;
+	background-color: #fff;
+	position: absolute;
+	top: 30px;
+	float: left;
+}
+.site-nav  .current s{
+	transform: rotate(180deg);
+	-wek-transform : rotate(180deg);
+}
+.site-nav .mobile .con{
+	width: 125px;
+	padding: 10px;
+	line-height: 25px;
+
+}
+.site-nav .fr .current .con{
+	display: block;
+}
+
+.site-nav .myyiguo .con{
+	width: 100px;
+	padding: 5px 12px;
+}
+.site-nav .myyiguo .con a{
+	display: block;
+	text-align: left;
+	font-size: 14px;
+	line-height: 25px;
+	color: #727272;
+}
+.site-nav .myyiguo .con b{
+	margin-left: 10px;
+	padding: 0 5px;
+	background-color: #008842;
+	color: #fff;
+	border-radius: 16px;
+}
+/* 头部 */
+.header .wrap{
+	height: 58px;
+	padding: 15px 0 5px 0;
+}
+.header{
+	background: #e0e0e0;
+}
+.logo{
+	width: 200px;
+	margin-right: 10px;
+	float: left;
+}
+.logo a{
+	display: block;
+	width: 145px;
+	height: 50px;
+	background: url('../images/header/logo.png')
 }
