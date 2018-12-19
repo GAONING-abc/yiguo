@@ -79,13 +79,18 @@
             </div>
         </div>
         <!-- 头部 -->
-        <div class="header">
+        <div class="header clearfix">
             <div class="wrap">
                 <div class="logo">
                     <a href=""></a>
                 </div>
                 <!-- 搜索开始 -->
-                <div class="search"></div>
+                <div class="search">
+                    <div class="search-bar clearfix">
+                        <input type="text" value="输入商品名/编号/拼音" class="search-input" onfocus=" if(this.value=='输入商品名/编号/拼音'){this.value='';this.style.color='#000';}" onblur=" if(this.value==''){this.value='输入商品名/编号/拼音';this.style.color='#999';} " style="color: rgb(153, 153, 153);" >
+                        <input type="submit"  value="搜索" class="search-btn" />
+                    </div>
+                </div>
                 <!-- 购物车开始 -->
                 <div class="shopping-cart"></div>
             </div>

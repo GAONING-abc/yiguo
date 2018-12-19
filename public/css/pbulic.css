@@ -27,6 +27,22 @@ i,s{
 .fr{
 	float: right;
 }
+/*清浮动*/
+
+.clearfix:before,
+.clear:after {
+    display: block;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+    overflow: hidden;
+}
 .wrap{
 	width: 1200px;
 	margin: 0 auto;
@@ -178,15 +194,15 @@ i,s{
 	border-radius: 16px;
 }
 /* 头部 */
+.header{
+	background: #e0e0e0;
+}
 .header .wrap{
 	height: 58px;
 	padding: 15px 0 5px 0;
 }
-.header{
-	background: #e0e0e0;
-}
 .logo{
-	width: 200px;
+	width: 280px;
 	margin-right: 10px;
 	float: left;
 }
@@ -195,4 +211,29 @@ i,s{
 	width: 145px;
 	height: 50px;
 	background: url('../images/header/logo.png')
+}
+.search{
+	position: relative;
+	float: left;
+	width: 528px;
+}
+.search .search-input{
+	width: 425px;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #008842;
+	float: left;
+	padding: 0 10px;
+	background-color: #e0e0e0;
+}
+.search .search-btn{
+	display: block;
+	width: 81px;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	background-color: #008842;
+	float: left;
+	border: none;
+	padding: 0;
 }
