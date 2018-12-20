@@ -196,6 +196,7 @@ i,s{
 /* 头部 */
 .header{
 	background: #e0e0e0;
+	overflow: visible;
 }
 .header .wrap{
 	height: 58px;
@@ -236,4 +237,125 @@ i,s{
 	float: left;
 	border: none;
 	padding: 0;
+}
+.search{
+	line-height: 30px;
+}
+.search a{
+	margin-right: 5px;
+	color: #008842;
+	display: inline-block;
+}
+.shopping-cart{
+	float: right;
+	position: relative;
+	z-index: 88;
+}
+.shopping-cart .shopping-btn{
+	width: 170px;
+	height: 28px;
+	padding: 6px 0;
+	border: 1px solid #008842;
+	background-color: #fff;
+	font-size: 25px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+	z-index: 88;
+}
+.shopping-btn a{
+	display: block;
+	color: #008842;
+}
+.shopping-cart .totelNum{
+	display: inline-block;
+	vertical-align: middle;
+	background: url('../images/header/header-img.png') no-repeat -112px 0;
+	width: 28px;
+	height: 20px;
+	margin-right: 10px;
+	font-size: 12px;
+	padding: 0;
+}
+.shopping-btn .totelNum b{
+	display: block;
+	width: 24px;
+	line-height: 12px;
+	text-align: center;
+	margin-right: 4px;
+}
+.shopping-btn .totelPrice{
+	font-weight: normal;
+	font-family: Arial, "Microsoft YaHei";
+}
+.shopping-list{
+	width: 380px;
+	position: absolute;
+	top: calc(100% - 1px);
+	background: #fff;
+	border: 1px solid #008842;
+	float: right;
+	right: 0;
+	z-index: 88;
+	padding: 10px;
+}
+.shopping-list .nogoods{
+	width: 380px;
+	height: 120px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 120px;
+
+}
+.shopping-list .deliveryType{
+	background-color: #e0e0e0;
+	line-height: 28px;
+	padding: 0 10px;
+	margin: -10px 0 0 -10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 380px;
+	color: #008842;
+}
+.shopping-list .price-total{
+	width: 380px;
+	margin-top: 10px;
+	border-top: 1px solid #e0e0e0;
+	padding-top: 10px;
+	text-align: right;
+	line-height: 27px;
+}
+.price-total .totleNum{
+	margin-right: 10px;
+}
+.price-total b{
+	color: red;
+	font-size: 14px;
+}
+.shopping-list .settleup{
+	background-color: #008842;
+	color: #fff;
+	display: inline-block;
+	width: 75px;
+	line-height: 27px;
+	text-align: center;
+	float: right;
+}
+/* 商品分类 */
+.catalogs{
+	position: relative;
+	float: left;
+}
+.catalogs-title{
+	width: 180px;
+	color: #fff;
+	background-color: #008842;
+	text-align: center;
+	position: relative;
+}
+.catalogs-title span{
+	font: bold 15px/16px "Microsoft YaHei";
+	display: block;
+	height: 16px;
+	padding: 11px 0;
 }
